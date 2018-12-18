@@ -1,0 +1,7 @@
+1. compare file at binary level - inst fail
+2. compare metadata creation time - inst fail
+3. compare length in lines - warning
+4. compare function names and var names 
+	- (all match/inst fail) (some match/warning)
+5. build function and variable table for both files
+	- (all match/inst fail) (some match/warning)
