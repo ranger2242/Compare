@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3bf0858-42ab-4c70-aa74-73ad2d877098" name="Default Changelist" comment="" />
+    <list default="true" id="b3bf0858-42ab-4c70-aa74-73ad2d877098" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/src/main/java/io/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/src/main/java/io/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/src/main/java/io/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/src/main/java/io/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/target/classes/io/FileHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/target/classes/io/FileHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compare_mav/target/classes/io/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/Compare_mav/target/classes/io/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/a" beforeDir="false" afterPath="$PROJECT_DIR$/data/A/src/a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/b" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Compare_mav/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +37,7 @@
           <entry key="b" value="2" />
           <entry key="java" value="31" />
           <entry key="php" value="2" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -34,33 +45,33 @@
         <counts>
           <entry key="JAVA" value="31" />
           <entry key="PHP" value="2" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="b" value="34" />
-          <entry key="java" value="1257" />
+          <entry key="java" value="1412" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1257" />
+          <entry key="JAVA" value="1412" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.77206594">
+    <splitter split-orientation="horizontal" split-proportion="0.8142077">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/io/Logger.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="553">
-                  <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+                <state relative-caret-position="472">
+                  <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -71,8 +82,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/io/FileHandler.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="418">
-                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+                <state relative-caret-position="370">
+                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#4432#4433#0" expanded="true" />
@@ -89,11 +100,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="61" selection-start-line="60" selection-end-line="61" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="1342">
+                  <caret line="61" column="2" selection-start-line="14" selection-start-column="3" selection-end-line="61" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -108,6 +116,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,11 +166,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="942" />
     <option name="height" value="1087" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -222,6 +234,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Compare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Compare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Compare" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Compare" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="B" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -234,6 +263,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="lo&#9;FILE&#9;file://C:/Users/Chris/Google Drive/JAVA/Compare/Compare_mav/src/main/java/io/Logger.java&#10;src&#9;PSI&#9;JAVA://io.FileHandler#countSrcFiles" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/SeniorProject-master/Java Module" />
@@ -244,9 +274,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\data\B\src" />
+      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\data\A\src" />
+      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\data\B" />
+      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\data\A" />
       <recent name="C:\Users\Chris\Google Drive\JAVA\Compare" />
-      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\Compare_mav" />
-      <recent name="C:\Users\Chris\Google Drive\JAVA\Compare\Compare_mav\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -298,16 +330,15 @@
       <updated>1545094806848</updated>
       <workItem from="1545094808939" duration="5612000" />
       <workItem from="1545104281567" duration="5896000" />
-      <workItem from="1545111980105" duration="2489000" />
+      <workItem from="1545111980105" duration="4301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13997000" />
+    <option name="totallyTimeSpent" value="15809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1872" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.48291925" visible="true" weight="0.1727373" />
@@ -320,8 +351,9 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.32952183" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.325" />
       <window_info anchor="bottom" id="Messages" order="6" weight="0.18503119" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.2625" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.26195425" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49435028" visible="true" weight="0.25467774" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.16445915" />
@@ -329,7 +361,6 @@
       <window_info anchor="right" id="Gradle" order="4" weight="0.32910696" />
       <window_info anchor="right" id="Ant Build" order="5" />
       <window_info anchor="right" id="Structure" order="6" sideWeight="0.5049365" side_tool="true" weight="0.19274376" />
-      <window_info active="true" anchor="right" id="Run" order="7" sideWeight="0.49435028" visible="true" weight="0.25827813" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +372,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/data/b.php" />
     <entry file="file://$PROJECT_DIR$/data/a.php" />
-    <entry file="file://$PROJECT_DIR$/data/a">
+    <entry file="file://$PROJECT_DIR$/data/A/src/a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="7" selection-start-column="7" selection-end-column="7" />
@@ -355,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Compare_mav/ideas.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/Layer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -372,7 +396,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/b">
+    <entry file="file://$PROJECT_DIR$/data/B/src/b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="175" column="30" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="30" />
@@ -484,10 +508,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Compare_mav/ideas.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/io/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="472">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -496,18 +527,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="61" selection-start-line="60" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1342">
+          <caret line="61" column="2" selection-start-line="14" selection-start-column="3" selection-end-line="61" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Compare_mav/src/main/java/io/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="370">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4432#4433#0" expanded="true" />

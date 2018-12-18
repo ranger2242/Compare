@@ -1,13 +1,5 @@
 import io.FileHandler;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -20,12 +12,12 @@ public class Main {
         };
         FileHandler fh  = new FileHandler(paths);
 
-        ArrayList<Integer> bytesA = new ArrayList<>();
+   /*     ArrayList<Integer> bytesA = new ArrayList<>();
         ArrayList<Integer> bytesB = new ArrayList<>();
         File fileA = new File(path+"a");
         File fileB = new File(path+"b");
-        String extA = getFileExtension(fileA);
-        String extB = getFileExtension(fileB);
+       *//* String extA = getFileExtension(fileA);
+        String extB = getFileExtension(fileB);*//*
         try (
                 InputStream inA = new FileInputStream(fileA);
                 InputStream inB = new FileInputStream(fileB);
@@ -67,7 +59,7 @@ public class Main {
         System.out.println("Percent diff: " + nf.format(nDiff/nA)+"% ");
 
         System.out.println(Arrays.toString(diffAB));
-
+*/
     }
 
 

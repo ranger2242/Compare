@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+import static io.Logger.slog;
+
 /**
  * Created by USER on 11/18/2016.
  */
@@ -23,10 +25,16 @@ public class FileHandler {
 
 
     public FileHandler(String[] paths) {
-        this.batchSize = -1;
-        this.path = "";
         for (String path: paths) {
-            load(new File(path));
+            File folder = new File(path);
+            slog("Searching for SRC Files in :"+ path);
+
+            ArrayList<String> srcFiles = findSourceFolderPaths(path);
+            if (folder.listFiles() != null) {
+                listOfFiles.addAll(Arrays.asList(folder.listFiles()));
+            } else {
+                System.out.println("ERROR: DirectoryElement ->" + path + " is empty.");
+            }
         }
     }
 
@@ -182,11 +190,14 @@ public class FileHandler {
         File folder = new File(path);
         File[] listOfFiles = folder.listFiles();
         ArrayList<String> sourcePaths = new ArrayList<>();
+
         for (File f : listOfFiles != null ? listOfFiles : new File[0]) {
             if (f.isDirectory() && f.getName().equals("src")) {
-                sourcePaths.add(f.getAbsolutePath());
-                int i = countSrcFiles(f.getAbsolutePath(), 0);
-                //Logger.slog("TOTAL FILES: "+i+" " + f.getAbsolutePath());
+                String srcFile =f.getAbsolutePath();
+                sourcePaths.add(srcFile);
+
+                slog("Found SRC :"+ srcFile);
+
             }
         }
         for (File f : listOfFiles != null ? listOfFiles : new File[0]) {

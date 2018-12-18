@@ -59,8 +59,7 @@ public class Logger {
     public static void slog(String msg) {
         Date d = new Date();
         SimpleDateFormat s = new SimpleDateFormat("MM/dd/yyyy::HH:mm:ss a");
-        if(enabled)
-            System.out.println(s.format(d) + ":\t" + msg);
+        System.out.println(s.format(d) + ":\t" + msg);
     }
 
     public void printAll(ArrayList<ExtractedClass> classes){
